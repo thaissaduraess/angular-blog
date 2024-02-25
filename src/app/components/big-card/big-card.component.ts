@@ -14,6 +14,8 @@ export class BigCardComponent implements OnInit {
   cardDescription: string = '';
   @Input()
   Id: string = '';
+  @Input()
+  created: string = '';
 
   constructor() {}
 

@@ -12,12 +12,20 @@
   width: 200px;
   min-width: 200px;
   margin-right: 20px;
+  border-radius: 15px;
 }
 
 .small-card__title{
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 12px;
+}
+
+.small-card__created{
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 200;
 }
 
 .container__small-card__separator{
